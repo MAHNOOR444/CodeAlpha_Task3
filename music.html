@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Music Player</title>
+    <link rel="stylesheet" href="mahnoor.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="visualizer"></div>
+        <div class="controls">
+            <button id="prev-track"><img src="next/prev.jpg" alt="Prev"></button>
+            <button id="play-pause"><img src="next/play.jpg" alt="Play"></button>
+            <button id="next-track"><img src="next/next.jpg" alt="Next"></button>
+        </div>
+        <div class="track-list">
+            <ul>
+                <li data-track="0" class="active">Song 1</li>
+                <li data-track="1">Song 2</li>
+                <li data-track="2">Song 3</li>
+                <li data-track="3">Song 4</li>
+                <li data-track="4">Song 5</li>
+                <li data-track="5">Song 6</li>
+                <li data-track="6">Song 7</li>
+            </ul>
+        </div>
+        <audio id="audio"></audio>
+    </div>
+    <script src="maha.js"></script>
+</body>
+</html>
